@@ -10,10 +10,10 @@ $(document).ready(function(){
       $("#YouSure").show();
 
     } else if
-    (userHeight <= 5){
+    (userHeight <= 5 && userHeight>=4){
 
       $("#Yikes, #EzMode").show();
-    } else
+    } else (userHeight <= 3)
       $("#EzMode").show();
     });
   });
