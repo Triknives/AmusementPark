@@ -4,7 +4,7 @@ $(document).ready(function(){
   $("#heightchart").submit(function(event) {
     var userHeight = parseInt($("#height").val());
     event.preventDefault();
-    $(".rideoptions").hide();
+    $(".hidden").hide();
 
     if (userHeight >= 6){
       $("#YouSure").show();
