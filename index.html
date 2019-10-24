@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/scripts.js"></script>
-    <title>Park</title>
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/jquery-3.4.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Park</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <form id="heightchart">
+        <div class="form-group">
+          <label for="height">Height</label>
+          <input id="height" class="form-control" type="text">
+        </div>
 
-  </body>
+        <div class="rollercoasterrides" class="rideoptions">
+          <ul>
+            <li id ="EzMode">EzMode</li>
+            <li id ="Yikes">Yikes</li>
+            <li id ="YouSure">You Sure?</li>
+          </ul>
+        </div>
+        <button type="submit" class="btn">Submit!</button>
+      </form>
+    </div>
+  </div>
+</body>
 </html>

@@ -1,17 +1,10 @@
-#turtles {
-  display: none
-
-
+#YouSure{
+  display: none;
+}
+#Yikes{
+  display: none;
 }
 
-#snakes {
-  display: none
-
-
-}
-
-#insects {
-  display: none
-
-
+#EzMode{
+  display: none;
 }

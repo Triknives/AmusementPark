@@ -1,21 +1,19 @@
 
 $(document).ready(function(){
 
-
-  $("form#choices").submit(function(event) {
-    var userChoice = parseInt($("#animalChoice").val());
+  $("#heightchart").submit(function(event) {
+    var userHeight = parseInt($("#height").val());
     event.preventDefault();
-    $(".hidden").hide();
+    $(".rideoptions").hide();
 
-    if (userChoice === 1){
-      $("#turtles").show();
-    }
-    else if
-    (userChoice === 2){
-      $("#snakes").show();
+    if (userHeight >= 6){
+      $("#YouSure").show();
 
-    }
-    else
-      $("#insects").show();
+    } else if
+    (userHeight <= 5){
+
+      $("#Yikes, #EzMode").show();
+    } else
+      $("#EzMode").show();
     });
   });
